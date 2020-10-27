@@ -32,6 +32,7 @@ $(document).ready(function(){
 
     $("#title").css("background-image","url('"+ stage[currentStage].url +"')");
     $("#title").css("background-size","cover");
+    $("#title").css("align","center");
     $("#storyText").text(stage[currentStage].story);
 
     $("#backBtn").click(function() {
