@@ -35,20 +35,26 @@ $(document).ready(function(){
     $("#storyText").text(stage[currentStage].story);
 
     $("#backBtn").click(function() {
-        currentStage = currentStage - 1;
-        $("#title").css("background-image","url('"+ stage[currentStage].url +"')");
-        $("#storyText").text(stage[currentStage].story);
         if (currentStage === 0){
             currentStage = 5;
+            $("#title").css("background-image","url('"+ stage[currentStage].url +"')");
+            $("#storyText").text(stage[currentStage].story);
+        } else {
+            currentStage = currentStage - 1;
+            $("#title").css("background-image","url('"+ stage[currentStage].url +"')");
+            $("#storyText").text(stage[currentStage].story);
         }
     });
 
     $("#nextBtn").click(function() {
-        currentStage = currentStage + 1;
-        $("#title").css("background-image","url('"+ stage[currentStage].url +"')");
-        $("#storyText").text(stage[currentStage].story);
         if (currentStage === 5){
             currentStage = 0;
+            $("#title").css("background-image","url('"+ stage[currentStage].url +"')");
+            $("#storyText").text(stage[currentStage].story);
+        } else {
+            currentStage = currentStage + 1;
+            $("#title").css("background-image","url('"+ stage[currentStage].url +"')");
+            $("#storyText").text(stage[currentStage].story);
         }
     });
 
