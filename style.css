@@ -77,6 +77,32 @@ body, html {
     border-radius: 15px;
     opacity: 70%;
 }
+#contact {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    border-style: outset;
+    border-radius: 25px;
+    background-color: tan;
+    align-content: center;
+}
+.contactLink{
+    color: black;
+}
+#icon {
+    height: 50px;
+    width: 50px;
+}
+#contentRow {
+    text-align: center;
+    padding-bottom: 5%;
+}
+#contactDirections {
+    margin-top: 5%;
+}
+
+
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
