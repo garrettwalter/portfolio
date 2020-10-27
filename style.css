@@ -1,0 +1,95 @@
+body, html {
+    background-color: rgb(55, 60, 65);
+}
+#gmoney {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(55, 60, 65);
+}
+.nav {
+    background-color: tan;
+    border-style: outset;
+    margin-bottom: 10%;
+}
+#nav-name {
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Trattatello, fantasy;
+    color: rgb(55, 60, 65);
+    margin: 10px;
+}
+.nav-link i:hover {
+    color: skyblue;
+}
+.link {
+    margin-top: 20px;
+    color: rgb(55, 60, 65);
+}
+.blank {
+    background-color: rgb(55, 60, 65);
+}
+.stuff {
+    padding: 5%;
+    text-align: center;
+    border-style: outset;
+    border-radius: 25px;
+    background-color: tan;
+}
+#content {
+    margin-top: 10%;
+}
+.repo {
+    color: rgb(55, 60, 65);
+}
+#title {
+    padding-top: 100px;
+    text-align: center;
+    color: tan;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    margin-bottom: -1%;
+    border-top-style: outset;
+    border-left-style: outset;
+    border-right-style: outset;
+}
+.bio {
+    padding: 5%;
+    text-align: center;
+    border-bottom-style: outset;
+    border-left-style: outset;
+    border-right-style: outset;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: tan;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    /* Styles */
+    #nav-name {
+        font-size: 20px;
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+    .link {
+        font-size: 10px;
+        margin-top: 5%;
+        margin-left: -2%;
+    }
+    .stuff {
+        text-align: center;
+        background-color: rgb(55, 60, 65);
+        color: tan;
+    }
+    .repo {
+        color: tan;
+    }
+    
+}
