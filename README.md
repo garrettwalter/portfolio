@@ -20,7 +20,7 @@ This application serves as my updated portfolio. On this site you can read about
 
 [Full Size](https://drive.google.com/file/d/1DcVpxfuCSfAWRzj89Y9Jwv65s8nJpm1a/preview)
 
-[Mobile]()
+[Mobile](https://drive.google.com/file/d/1KubID_8-Uivnr37b5XD-SBJN9F3Gctsk/preview)
 
 ## Updated GitHub Profile
 
